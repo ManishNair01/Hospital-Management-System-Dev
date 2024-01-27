@@ -11,6 +11,30 @@ Navigate to the "src" directory in your terminal and execute the following comma
 javac HospitalManagementSystem.java
 java HospitalManagementSystem
 ```
+## Adding Staff and Doctor Members:
+
+1. **Admin Login:**
+   - Username: [admin_username]
+   - Password: [admin_password]
+
+2. **Add Staff and Doctors:**
+   - Followed the menu-driven program to add staff and doctors.
+   - Document any errors or issues encountered.
+
+## Using the System for a Patient:
+
+1. **Patient Registration:**
+   - Followed the registration process as a patient.
+   - Document any errors or issues encountered.
+
+2. **Patient Login:**
+   - Used patient credentials to log in.
+   - Document any errors or issues encountered.
+
+## Additional Notes:
+
+- Include any additional information or observations about the program.
+- Mention any improvements or issues identified during the execution.
 
 
 ## Getting Started
