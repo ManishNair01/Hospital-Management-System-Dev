@@ -15,7 +15,7 @@ public class HospitalManagementSystem {
 
     public HospitalManagementSystem(String name) {
         this._name = name;
-        Admin defaultAdmin = new Admin("1", "1");
+        Admin defaultAdmin = new Admin("admin", "admin123");
         _adminList.add(defaultAdmin);
     }
 
