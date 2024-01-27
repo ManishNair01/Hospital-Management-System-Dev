@@ -13,9 +13,9 @@ java HospitalManagementSystem
 ```
 ## Adding Staff and Doctor Members:
 
-1. **Admin Login:**
-   - Username: [admin_username]
-   - Password: [admin_password]
+1. **Admin Login(Default Credentials):**
+   - Username: [admin] 
+   - Password: [admin123]
 
 2. **Add Staff and Doctors:**
    - Followed the menu-driven program to add staff and doctors.
