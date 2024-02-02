@@ -255,7 +255,7 @@ public class HospitalManagementSystem {
                                         Patient patientJ = this._patientList.get(innerChoice1);
                                         Ward ward = new Ward(patientJ);
                                         patientJ.setWard(ward);
-                                        patientJ.getAdmittedLMAO();
+                                        patientJ.getAdmitted();
                                         this.patientAdmittedMONI();
                                         System.out.println("Patient succesfully admitted.");
                                         break;

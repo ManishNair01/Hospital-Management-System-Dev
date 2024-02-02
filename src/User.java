@@ -1,3 +1,4 @@
+///Accepts username and password, following which the role of the account is shown. 
 abstract public class User implements Displayable {
     private String username;
     private String password;
