@@ -1,5 +1,9 @@
 import java.util.HashMap;
 
+///Stores the appointment details.
+///Appoints a patient to a doctor on the basis of their token number.
+///@param patient Takes patient name.
+///@param doctor Takes the name of the doctor assigned to the patient.
 public class Appointment {
     private Patient _patient;
     private Staff _doctor;
@@ -22,14 +26,17 @@ public class Appointment {
     }
 
     public Staff getDoctor() {
+        /// @return Returns the doctor assigned.
         return this._doctor;
     }
 
     public int getTokenNumber() {
+        /// @return Returns the token number.
         return this._tokenNumber;
     }
 
     public Patient getPatient() {
+        /// @return Returns the patient.
         return this._patient;
     }
 }

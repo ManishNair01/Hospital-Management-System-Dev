@@ -1,3 +1,4 @@
+///Stores patient information.
 public class Patient extends User {
     private Appointment _appointment;
     private double _totalExpenditure;
@@ -45,6 +46,7 @@ public class Patient extends User {
     }
 
     public String getDOR() {
+        ///@returns Date of release
         return this._dateOfRegistration.getDDMMYYYY();
     }
 
@@ -85,7 +87,7 @@ public class Patient extends User {
 
     }
 
-    public void getAdmittedLMAO() {
+    public void getAdmitted() {
         this._totalExpenditure += 150;
     }
 

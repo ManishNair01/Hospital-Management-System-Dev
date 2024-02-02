@@ -4,6 +4,8 @@ public class Staff extends User {
     private boolean isDoctor;
 
     Staff(String username, String password) {
+        ///@param username Stores username.
+        ///@param password Stores password.
         super(username, password, "Staff");
         staffCount++;
     }
@@ -33,6 +35,7 @@ public class Staff extends User {
     }
 
     public boolean getIsDoctor() {
+        ///@returns Verification if the current account holder is a doctor or not.
         return this.isDoctor;
     }
 }
